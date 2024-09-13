@@ -12,7 +12,7 @@ export default function Home() {
           height={38}
           priority
         />
-          <h1>Initial App</h1>
+          <h1>Welcome to Dylan and Jess' wedding website</h1>
 
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
