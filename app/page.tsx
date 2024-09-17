@@ -11,9 +11,9 @@ export default function Home() {
           height={250}
           priority
         />
-        <h1 className="text-center text-2xl">Welcome to Dylan and Jess' wedding website</h1>
+        <h1 className="text-center text-2xl">Development</h1>
         <p className="w-96 text-center">
-          This site is still under construction so please be patient while we work on getting this up and running.
+          This is the development branch to be used separate to the actual sites deployment..
         </p>
       </main>
     </div>
