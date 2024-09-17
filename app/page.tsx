@@ -5,7 +5,7 @@ export default function Home() {
     <div className="grid content-center items-center min-h-screen">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <Image
-          src="/wedding logo.png"
+          src="/WeddingLogo.png"
           alt="wedding logo"
           width={250}
           height={250}
