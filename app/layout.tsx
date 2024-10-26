@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const brightFont = localFont({
+  src: "./fonts/Bright.otf",
+  variable: "--font-bright",
+});
 
 export const metadata: Metadata = {
   title: "The Littlewoods 2026",
@@ -13,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body
+        className={`${brightFont.variable} antialiased`}>
         {children}
       </body>
     </html>

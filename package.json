@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "functions": "cd ./functions/ && npm run build && cd .. && firebase emulators:start --only functions"
   },
   "dependencies": {
     "firebase": "^10.13.1",
+    "firebase-functions": "^6.0.1",
     "next": "14.2.11",
     "react": "^18",
     "react-dom": "^18",

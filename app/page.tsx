@@ -11,7 +11,7 @@ export default function Home() {
           height={250}
           priority
         />
-        <h1 className="text-center text-2xl">Development</h1>
+        <h1 className="text-center text-2xl font-[family-name:var(--font-bright)]">Development</h1>
         <p className="w-96 text-center">
           This is the development branch to be used separate to the actual sites deployment..
         </p>

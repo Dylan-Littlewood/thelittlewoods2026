@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     background: rgb(0, 102, 108);
     color: white;
 }
 h1{
-    font-family: 'Segoe UI Semibold';
+    /* font-family: 'Segoe UI Semibold'; */
 }
